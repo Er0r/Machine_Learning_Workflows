@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
-    apt-get install -y openjdk-8-jdk-headless wget tar && \
+    apt-get install -y openjdk-8-jdk-headless wget tar git python3 python3-pip && \
     wget https://archive.apache.org/dist/hadoop/common/hadoop-3.3.2/hadoop-3.3.2.tar.gz && \
     tar xf hadoop-3.3.2.tar.gz && \
     rm hadoop-3.3.2.tar.gz
