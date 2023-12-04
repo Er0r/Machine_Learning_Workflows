@@ -1,0 +1,9 @@
+{
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [50070, 8088],
+  "postCreateCommand": "hadoop namenode -format && hadoop --daemon start namenode && hadoop --daemon start datanode",
+  "extensions": ["ms-python.python"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
