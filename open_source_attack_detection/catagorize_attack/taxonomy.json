@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "package": "npm",
+    "extension": ["js", "jsx", "ts", "tsx", "mjs", "cjs", "json", "node"],
+    "detection": [
+      {
+        "id": 1,
+        "process": "Endpoint detection and response",
+        "methods": ["logistic regression", "linear regression"]
+      },
+      {
+        "id": 2,
+        "process": "Analyze code comments and documentation for potential indicators of malicious intent",
+        "methods": ["NLP"]
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "package": "PyPi",
+    "extension": ["py", "pyc", "pyd", "pyo", "pyw", "pyz", "pyzw", "pyx", "py"],
+    "detection": [
+      {
+        "id": 1,
+        "process": "Endpoint detection and response",
+        "methods": ["logistic regression", "linear regression"]
+      },
+      {
+        "id": 2,
+        "process": "Analyze code comments and documentation for potential indicators of malicious intent",
+        "methods": ["NLP"]
+      }
+    ]
+  }
+]
